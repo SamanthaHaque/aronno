@@ -10,3 +10,10 @@ function team() {
 function bd() {
   location.href = "blog.html";
 }
+function myFunction(){
+  var rightnav = document.getElementById('rightNav');
+  var bar = document.getElementById('#bars');
+
+    rightnav.classList.toggle('mobile-nav');
+
+}
