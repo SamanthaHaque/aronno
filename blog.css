@@ -1,0 +1,88 @@
+.blog-hero .carousel-item{
+    height: 90vh;
+    box-shadow:inset 0 0 0 2000px rgba(10, 0, 6, 0.5);
+}
+.blog-hero .carousel-item img{
+   filter: brightness(0.4);
+}
+.blog-hero{
+    margin-bottom: 95vh;
+    box-shadow:inset 0 0 0 2000px rgba(10, 0, 6, 0.5);
+}
+.blog-car{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+    
+}
+.top-nav{
+   top: 0;
+   
+}
+.right-nav{
+    top: 0;
+    position: absolute;
+right: 0;
+}
+.carousel-control-prev,.carousel-control-next{
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+  margin-top: 40vh;
+  font-weight: 600;
+  }
+.carousel-caption{
+    top: 40%;
+    
+}
+.carousel-caption h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.carousel-caption h3{
+    font-size: 45px;
+    font-weight: 900;
+}
+.carousel-caption p a{
+    color: white;
+    font-size: 25px;
+}
+.blog-date{
+    font-size: 25px;
+    color: #888;
+    font-weight: 500;
+    font-family: 'Titillium web',sans-serif;
+}
+.blog-heading{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Titillium web',sans-serif;
+}
+.blog-content{
+    font-size:23px;
+    font-family: 'Titillium web',sans-serif;
+    width: 90%;
+    padding: 40px 0 0 0;
+}
+.blog-tag{
+    font-size: 23px;
+    color: #999;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+}
+.button-read-more{
+    padding: 20px 0;
+}
+.button-read-more a{
+color: mediumaquamarine;
+font-size: 28px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 300;
+cursor: pointer;
+}
+.blog-container{
+    margin-top: 150px ;
+    margin-bottom: 150px;
+    margin-left: 100px;
+}

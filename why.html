@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="work.css">
+    <link rel="stylesheet" href="style.css">
+    <title>nature</title>
+</head>
+
+<body>
+    <header>
+        <div class="top-nav" id="topnav">
+            <a href="index.html" class="logo"><img src="img/logo.png" alt="logo"></a>
+            <div class="right-nav" id="rightNav">
+                <a class="navbar-item" href="index.html">HOME</a>
+                <a class="navbar-item" id="nav-dropdown">
+                    WHO WE ARE
+                    <ul id="btnb1">
+                        <li onclick="why()">OUR WHY</li>
+                        <li onclick="work()">OUR WORK</li>
+                        <li onclick="team()">OUR TEAM</li>
+                    </ul>
+                </a>
+                <a class="navbar-item" href="news.html">NEWSROOM</a>
+                <a class="navbar-item" id="nav-dropdown">
+                    BLOG
+                    <ul id="btnb2">
+                        <li onclick="bd()">Bangladeshi</li>
+                        <li onclick="bd()">Global</li>
+                    </ul>
+                </a>
+                <button class="navbar-button" data-bs-toggle="modal" data-bs-target="#exampleModal">SUBSCRIBE</button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true" style="height: 450px;">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <div class="work-hero">
+            <div class="work-hero-content">
+            </div>
+        </div>
+    </header>
+    <section class="work-container container">
+        <div class="row">
+            <div class="col-md-3 col-sm-12">
+                <h1>Who We Are </h1>
+                <ul>
+                    <li><a href="work.html">OUR WORK</a></li>
+                    <li><a href="why.html">OUR WHY</a></li>
+                    <li><a href="team.html">OUR TEAM</a></li>
+                </ul>
+            </div>
+            <div class="col-md-7 col-sm-12">
+                <h1>OUR WHY</h1>
+                <h3>WE ENVISION A WORLD WHERE COMMUNITIES THRIVE WITH NATURE ACROSS GENERATIONS.</h3>
+                <div class="row">
+                    <div class="col">
+                        <span>Youth4Nature is a youth-led, international non-profit organization that educates,
+                            empowers, and
+                            mobilises young people to lead on solutions for the ecological and climate crises that are
+                            rooted in
+                            science, aligned with traditional, local and Indigenous knowledge, and grounded in climate
+                            and
+                            intergenerational justice. Our mission is three-fold:</span>
+                    </div>
+                    <div class="col">
+                        <div class="work-image">
+                            <img src="img/why.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <ul>
+                        <li> To mobilise decision-makers to take ambitious action for nature and climate by 2030 that
+                            creates
+                            co-benefits for social and human well-being;
+                        </li>
+                        <li>
+                            To elevate the voices of youth by providing a platform to share their stories and have them
+                            be
+                            heard; and,
+                        </li>
+                        <li>
+                            To bridge youth action between the biodiversity and climate movements, while building their
+                            capacity
+                            as stewards for nature and climate.</li>
+                    </ul>
+                </div>
+                <div class="row work-block">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="work-image-box">
+                            <img src="img/work-block-1.jpg" alt="work-block-1">
+                        </div>
+                        <div class="work-image-content">
+                            <h2>KNOWLEDGE-SHARING</h2>
+                            <p>We connect young people with scientists, experts, and knowledge-holders to build a strong
+                                knowledge-base among young people globally. Our by-youth, for-youth knowledge sharing
+                                creates space for young leaders to exchange information, ideas and hope, supporting a
+                                more diversified understanding of the nature-climate nexus</p>
+                            <p class="hashtag">#Y4NKnowledgeSharing</p>
+                            <button class="dark-button">LEARN MORE</button>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="work-image-box">
+                            <img src="img/work-block-2.jpg" alt="work-block-2">
+                        </div>
+                        <div class="work-image-content">
+                            <h2>CAPACITY-BUILDING</h2>
+                            <p>We aim to grow the capacity of youth to advocate for solutions rooted in nature and
+                                justice and be involved in their planning and implementation locally. Through global
+                                youth delegations and on-the-ground support and virtual skills-sharing, we help to equip
+                                young leaders with the skills and resources that they need to make change.
+
+                            </p>
+                            <p class="hashtag">#Y4NCapacityBuilding</p>
+                            <button class="dark-button">LEARN MORE</button>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="work-image-box">
+                            <img src="img/work-block-3.jpg" alt="work-block-3">
+                        </div>
+                        <div class="work-image-content">
+                            <h2>STORYTELLING
+                            </h2>
+                            <p>Through storytelling, we provide a platform for youth from all corners of the world to
+                                tell their stories about nature and climate and have their voices be heard. We amplify
+                                these stories digitally and together with the storytellers at high level decision making
+                                events, and we connect storytellers for peer-to-peer learning and support.</p>
+                            <p class="hashtag">#Y4NStorytelling</p>
+                            <button class="dark-button">LEARN MORE</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="primary-footer">
+                <div class="container">
+                    <div class="movement">
+                        JOIN THE MOVEMENT
+                    </div>
+                    <div class="join-button">
+                        <button class="dark-button">
+                            SUBSCRIBE HERE
+                        </button>
+                    </div>
+                    <div class="policy">
+                        All data we collect is to support our programming and bound to our Privacy Policy. We will never
+                        sell your data.
+                    </div>
+                </div>
+            </div>
+            <div class="secondary-footer">
+                <div class="container">
+                    <div class="footer-nav">
+                        <ul>
+                            <li>ABOUT</li>
+                            <li>WHAT WE DO</li>
+                            <li>PRESS</li>
+                            <li>SUPPORT</li>
+                            <li>CONNECT</li>
+                        </ul>
+                    </div>
+                    <div class="footer-para">
+                        YOUTH4NATURE IS AN ENTIRELY YOUTH-LED, YOUTH-DRIVEN, INDEPENDENT, AND GLOBAL ORGANIZATION.
+                    </div>
+                    <div class="footer-social-media">
+                        <ul>
+                            <li><i class="fa-brands fa-facebook-f"></i></li>
+                            <li><i class="fa-brands fa-twitter"></i></li>
+                            <li><i class="fa-brands fa-instagram"></i></li>
+                            <li><i class="fa-brands fa-linkedin-in"></i></li>
+                            <li><i class="fa-brands fa-youtube"></i></li>
+                        </ul>
+                    </div>
+                    <div class="footer-copyright">
+                        Copyright to Youth4Nature Foundation | Privacy Policy
+                        Youth4Nature Foundation is a registered non-profit under the British Columbia Societies Act, in
+                        Canada.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>nature</title>
+</head>
+
+<body>
+    <header>
+        <div class="top-nav" id="topnav">
+            <a href="#index.html" class="logo"><img src="img/logo.png" alt="logo"></a>
+            <div class="right-nav" id="rightNav">
+                <a class="navbar-item" href="#index.html">HOME</a>
+                <a class="navbar-item" id="nav-dropdown">
+                    WHO WE ARE
+                    <ul id="btnb1">
+                        <li onclick="why()">OUR WHY</li>
+                        <li onclick="work()">OUR WORK</li>
+                        <li onclick="team()">OUR TEAM</li>
+                    </ul>
+                </a>
+                <a class="navbar-item" href="#news.html">NEWSROOM</a>
+                <a class="navbar-item" id="nav-dropdown">
+                    BLOG
+                    <ul id="btnb2">
+                        <li onclick="bd()">Bangladeshi</li>
+                        <li onclick="bd()">Global</li>
+                    </ul>
+                </a>
+                <button class="navbar-button" data-bs-toggle="modal" data-bs-target="#exampleModal">SUBSCRIBE</button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true" style="height: 450px;">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <div class="hero">
+            <div class="hero-content">
+                <h3>Mobilising Youth to Lead for</h3>
+                <h1>NATURE AND CLIMATE</h1>
+                <button class="navbar-button" style="font-weight:700 ;">Learn more</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="second-content container">
+        <p class="second-content-heading">
+            WE FACE OVERLAPPING AND INTERSECTING CRISES, INCLUDING
+            ECOLOGICAL AND CLIMATE BREAKDOWN.
+        </p>
+        <p class="second-content-detail">In pursuing climate action, political leaders cannot forget young people and
+            they cannot forget nature. We
+            are empowering youth around the world to mobilise for nature and climate and hold our leaders to account on
+            both the climate and ecological crises.
+
+        </p>
+    </section>
+    <section class="daily-updates container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <div class="image-box">
+                    <img src="img/daily-1.png" alt="daily-1">
+                </div>
+
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="daily-content">
+                    <p class="small-heading">2021 IMPACT REPORT</p>
+                    <p class="small-detail">A glimpse into the ways we are working & the work we are doing to educate,
+                        equip & establish youth as nature & climate leaders</p>
+                    <button class="navbar-button daily-button">Read the full report</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <div class="daily-content">
+                    <p class="small-heading">YOUTH & NBS</p>
+                    <p class="small-detail">Decisions about Nature-based Solutions will not be made without us, so we
+                        asked over 1000 youth what they thought about NbS. </p>
+                    <button class="navbar-button daily-button">FIND OUT WHAT THEY SAID</button>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="image-box">
+                    <img src="img/daily-2.png" alt="daily-1">
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <div class="image-box">
+                    <img src="img/daily-3.jpg" alt="daily-3">
+                </div>
+
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="daily-content">
+                    <p class="small-heading">WHERE WE WORK</p>
+                    <p class="small-detail">Our regional teams are busy delivering events, activities & projects for
+                        youth around the world.</p>
+                    <button class="navbar-button daily-button">SEE WHAT THEY'RE UP TO</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="help-us-section container">
+        <hr />
+        <div class="help-us">
+            <div class="second-content-heading help-us-heading">
+                HELP US BUILD A MOVEMENT OF YOUTH EMPOWERED TO ACT ON NATURE AND CLIMATE
+            </div>
+            <button class="navbar-button">SUBSCRIBE</button>
+        </div>
+        <hr />
+    </section>
+    <section class="nature-carousel container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 nature-content">
+                <ul>
+                    <li>
+                        <img src="img/list-styler.jpg" alt="list-styler" class="list-styler">
+                        <div class="nature-list-para">
+                            CALL for STORIES & PRIZES 🌱🌍 We are calling for #youth across Afrika to submit their
+                            stories
+                            on #ProtectedAreas! 🎊… https://t.co/Nulp1tj6tc
+                            Jun 24, 2022, 2:29 PM
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/list-styler.jpg" alt="list-styler" class="list-styler">
+                        <div class="nature-list-para">
+                            "The siltation of riverbeds caused by #deforestation and solid waste dumping has already
+                            reduced
+                            the water carrying… https://t.co/3hMZxCl5xY
+                            Jun 23, 2022, 7:36 PM
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/list-styler.jpg" alt="list-styler" class="list-styler">
+                        <div class="nature-list-para">
+                            RT @IYCM: We invite you to join YOUNGO at the World Urban Forum 11! Hear from youth speakers
+                            and
+                            international experts on… https://t.co/9Vs61y8ENt
+                            Jun 23, 2022, 7:26 PM
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6 col-sm-12 carousel-container">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-interval="5000">
+                            <img src="img/caro-1.jpeg" class="d-block w-100" alt="caro-1">
+                        </div>
+                        <div class="carousel-item" data-interval="2000">
+                            <img src="img/caro-2.jpeg" class="d-block w-100" alt="caro-2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/caro-3.jpeg" class="d-block w-100" alt="caro-3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/caro-4.jpeg" class="d-block w-100" alt="caro-4">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/caro-5.jpeg" class="d-block w-100" alt="caro-5">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/caro-6.jpeg" class="d-block w-100" alt="caro-6">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="social-media-section container">
+        <div class="media-tag"><i class="fa-brands fa-twitter"></i>
+            <span>Follow@Y4Nature</span>
+        </div>
+        <div class="media-content">
+            <div class="media-heading">STAY UP TO DATE!</div>
+            <div class="media-line">
+                Follow us on all of our social platforms for the latest updates
+            </div>
+            <div class="media-icon">
+                <ul>
+                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                    <li><i class="fa-brands fa-linkedin-in"></i></li>
+                    <li><i class="fa-brands fa-youtube"></i></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="primary-footer">
+                <div class="container">
+                    <div class="movement">
+                        JOIN THE MOVEMENT
+                    </div>
+                    <div class="join-button">
+                        <button class="dark-button">
+                            SUBSCRIBE HERE
+                        </button>
+                    </div>
+                    <div class="policy">
+                        All data we collect is to support our programming and bound to our Privacy Policy. We will never
+                        sell your data.
+                    </div>
+                </div>
+            </div>
+            <div class="secondary-footer">
+                <div class="container">
+                    <div class="footer-nav">
+                        <ul>
+                            <li>ABOUT</li>
+                            <li>WHAT WE DO</li>
+                            <li>PRESS</li>
+                            <li>SUPPORT</li>
+                            <li>CONNECT</li>
+                        </ul>
+                    </div>
+                    <div class="footer-para">
+                        YOUTH4NATURE IS AN ENTIRELY YOUTH-LED, YOUTH-DRIVEN, INDEPENDENT, AND GLOBAL ORGANIZATION.
+                    </div>
+                    <div class="footer-social-media">
+                        <ul>
+                            <li><i class="fa-brands fa-facebook-f"></i></li>
+                            <li><i class="fa-brands fa-twitter"></i></li>
+                            <li><i class="fa-brands fa-instagram"></i></li>
+                            <li><i class="fa-brands fa-linkedin-in"></i></li>
+                            <li><i class="fa-brands fa-youtube"></i></li>
+                        </ul>
+                    </div>
+                    <div class="footer-copyright">
+                        Copyright to Youth4Nature Foundation | Privacy Policy
+                        Youth4Nature Foundation is a registered non-profit under the British Columbia Societies Act, in
+                        Canada.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
